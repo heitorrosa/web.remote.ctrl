@@ -1,2 +1,3 @@
 # web.remote.ctrl
-Web client for the remote.ctrl project.
+
+[Local Client Repository](https://github.com/heitorrosa/remote.ctrl/)
