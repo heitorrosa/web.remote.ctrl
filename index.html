@@ -48,7 +48,7 @@
     <div class="container">
         <div id="status">Disconnected</div>
         <br>
-        
+
         <form id="sendMessageForm" onsubmit="displayData()" align="center">
             <input id="textValue">
         </form>
@@ -111,6 +111,8 @@
                 displayArea.innerHTML = `
                 <p>${textValue}</p>
             `;
+
+            sendCommand(textValue);
         }
 
     </script>
